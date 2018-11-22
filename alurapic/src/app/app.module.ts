@@ -20,5 +20,3 @@ import { ErrorsModule } from './errors/errors.module';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-// Commit Test
