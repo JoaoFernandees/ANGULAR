@@ -10,12 +10,7 @@ import { ErrorsModule } from './errors/errors.module';
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
-    PhotosModule,
-    AppRoutingModule,
-    ErrorsModule
-  ],
+  imports: [ BrowserModule, PhotosModule, AppRoutingModule, ErrorsModule ],
   providers: [],
   bootstrap: [AppComponent]
 })
